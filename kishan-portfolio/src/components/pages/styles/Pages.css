@@ -1,0 +1,141 @@
+header {
+    background-color: #8eb2bf;
+}
+
+.name {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.about-text, .indent {
+    width: 60%;
+    padding: 40px;
+    text-indent: 10%;
+    color: black;
+}
+
+.form {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 30%;
+    border-radius: 7px;
+}
+
+/* .name-input {
+    height: 30px;
+}
+
+.email-input {
+    height: 30px;
+}
+
+.message-input {
+    height: 200px;
+} */
+
+/* .error-message {
+    margin-top: 20px;
+    font-weight: 600;
+    color: red;
+} */
+
+/* .submit-button {
+    background-color: navy;
+    color: white;
+    border-radius: 5px;
+} */
+
+.portrait {
+    margin-left: 25px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.center {
+    height: 50px;
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #d1e1e6;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.contact-info, .resume-info {
+    text-indent: 5px;
+    margin-top: 15px;
+}
+
+.contact-choices {
+    font-weight: 600;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-images {
+    min-width: 400px;
+    height: 300px;
+    margin: 15px;
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+}
+
+.project-info {
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 0;
+    /* background-color: rgba(255, 248, 231, 0.7);     */
+    background-color:  #d1e1e6;
+    opacity: 0
+}
+
+.project-info:hover {
+    opacity: 0.75;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+footer ul li a {
+    color: navy;
+    text-decoration: none;
+}
+
+.footer-list {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
